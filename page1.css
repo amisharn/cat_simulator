@@ -77,6 +77,10 @@ button {
   animation: blink 1s linear 0s infinite;
   margin-top: 3em;
 }
+button:hover {
+  color: #63528d;
+  background-color: #95d2e2;
+}
 @keyframes blink {
   0% {
     transform: scale(1);

@@ -42,7 +42,7 @@ const catJumps = [
   "cats/Classical/JumpCat.png",
   "cats/BlackCat/JumpCabt.png",
   "cats/EgyptCatFree/JumpCabt.png",
-  "cats/DemonucFree/JumpCatd.png",
+  "cats/DemonicFree/JumpCatd.png",
   "cats/TigerCatFree/JumpCattt.png",
 ];
 function update() {
