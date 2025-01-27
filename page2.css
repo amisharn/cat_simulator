@@ -1,0 +1,119 @@
+body {
+  height: 100vh;
+  background-color: #c0a3e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "Monofett", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6em;
+  text-align: center;
+  margin-left: -0.3em;
+}
+#stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4em;
+}
+#stats p {
+  margin-right: 1em;
+  font-size: 1em;
+  color: #63528d;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#buttons {
+  margin-top: 4em;
+}
+button {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 1em;
+  background-color: #63528d;
+  width: 6rem;
+  height: 3rem;
+  border: none;
+  font-size: 1.3em;
+  color: #95d2e2;
+  position: relative;
+  top: -3em;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+button:hover {
+  color: #63528d;
+  background-color: #95d2e2;
+  animation: blink 1s linear 0s infinite;
+}
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#myPet {
+  width: 2em;
+  height: 2em;
+  border-radius: 0.2em;
+  zoom: 8;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  transform: scale(0.5);
+  z-index: 2;
+  position: absolute;
+}
+@keyframes cat {
+  100% {
+    background-position: -224px 0;
+  }
+}
+@keyframes catjump {
+  100% {
+    background-position: -416px 0;
+  }
+}
+#catt {
+  width: 20em;
+  height: 20em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bed {
+  width: 4em;
+  height: 4em;
+  zoom: 4;
+  z-index: 1;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  position: absolute;
+  z-index: 1;
+  top: 2em;
+}
+#msg {
+  width: 20em;
+  height: 5em;
+  margin-top: 4em;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  color: #63528d;
+}
